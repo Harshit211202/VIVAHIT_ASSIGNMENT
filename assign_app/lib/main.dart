@@ -11,7 +11,7 @@ class GameListApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Game List App',
+      // title: 'Game List App',
       home: GameListScreen(),
     );
   }
