@@ -61,7 +61,9 @@ class _GameListScreenState extends State<GameListScreen> {
     });
     _fetchGames();
   }
+  
 
+  
   Future<void> _onSearchTextChanged(String value) async {
     setState(() {
       _games = _filteredGames
@@ -150,15 +152,18 @@ class _GameListScreenState extends State<GameListScreen> {
                 ),
         ],
       ),
-      floatingActionButton: const FloatingActionButton(
+      floatingActionButton: const FloatingActionButton.extended(
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.all(Radius.circular(9.0)),
+          borderRadius: BorderRadius.all(Radius.circular(15.0)),
         ),
         onPressed: null,
         backgroundColor: Color.fromARGB(255, 0, 0, 0),
         elevation: 20.0,
-        child: Text('Vivahit', style: TextStyle(color: Color.fromARGB(255, 255, 254, 254)),)
+        label: Text("VIVAHIT"),
+        foregroundColor: Colors.yellow,
+        // child: Text('Vivahit', style: TextStyle(color: Color.fromARGB(255, 255, 254, 254)),)
       ),
+      
     );
   }
 }

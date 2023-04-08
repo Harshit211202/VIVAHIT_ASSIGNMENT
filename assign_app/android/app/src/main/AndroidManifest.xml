@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.assign_app">
    <application
-        android:label="assign_app"
+        android:label="Gamezo"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
