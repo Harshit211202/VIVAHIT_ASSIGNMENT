@@ -89,6 +89,7 @@ class _GameListScreenState extends State<GameListScreen> {
             style: TextStyle(color: Color.fromARGB(255, 255, 255, 255))),
        
         backgroundColor: const Color.fromARGB(255, 0, 4, 5),
+      
       ),
       body: Column(
         children: [
